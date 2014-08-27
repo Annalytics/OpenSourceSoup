@@ -6,9 +6,19 @@ An basic website template setup using PHP, Composer, Slim, Twig, Illuminate Data
 This template provides everything you need to create a simple, light, fast, dynamic website.
 
 ## Installation
-Just download the zip and extract to a folder on your system. After setting up the DB as per the Database 
-instructions below you should be able to start a webserver pointing to the www folder. If you are using PHP 5.4
-or above then you can use the inbuilt PHP webserver using.
+Just download the zip and extract to a folder on your system. 
+
+The project on GitHub does not include the vendor libraries so you'll need to run composer as below before trying to run the project. 
+
+````
+composer install
+````
+
+You will also need to set up the DB as per the Database instructions below. 
+
+Once this is done you should be able to start a webserver pointing to the www folder. 
+
+If you are using PHP 5.4 or above then you can use the inbuilt PHP webserver using.
 
 ````
 php -S localhost:8090
