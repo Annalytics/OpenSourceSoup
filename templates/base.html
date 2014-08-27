@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Soup</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="canonical" href="http://localhost/">
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+	
+   	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/ie.css" />
+	<![endif]-->
+
+	<script src="/js/jquery-1.11.1.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script> 
+	<script src="/js/respond.min.js"></script>   
+	<script src="/js/global.js"></script>   
+</head>
+<body>
+
+<div class="container">
+
+<div class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">Open Source Soup</a>
+    </div>
+    <div class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a class="page-link" href="/">Menu 1</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="main-content">	
+{% block content %}{% endblock %}
+</div> 
+
+</div>
+</body>
+</html>
