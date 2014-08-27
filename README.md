@@ -41,4 +41,4 @@ CREATE TABLE `test`.`soups` (
 This table should be accessible by a user/password of soup/soup.
 
 ## Tutorial
-For more information on using this template [check out the post here](http://www.annalytics.co.uk/php/2014/08/26/Open-Source-Soup/)
+For more information on using this template [check out the post here](http://www.annalytics.co.uk/php/2014/08/25/Open-Source-Soup/)
